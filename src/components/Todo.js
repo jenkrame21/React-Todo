@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Todo.css';
 
 function Todo(props) {
     return (
-        <div 
+        <div
+            className="todos"
             style={{ textDecoration: props.todo.completed ? 'line-through' : "" }}
             onClick={() => props.toggleTodo(props.todo.id)}>
-                {props.todo.task}
+                <p>{props.todo.task}</p>
         </div>
     )
 }
