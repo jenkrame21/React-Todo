@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 h1 {
     text-align: center;
     background-color: darkcyan;
@@ -24,6 +28,7 @@ button:hover {
     background-color: #fff;
     color: darkcyan;
     transition: 0.4s ease-in-out;
+    cursor: pointer;
 }
 
 input {
@@ -48,6 +53,7 @@ p {
     padding: 2%;
     width: 50%;
     margin: 0 0 2% 0;
+    cursor: pointer;
 }
 
 .todos {
